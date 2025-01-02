@@ -42,12 +42,12 @@
 빠르고 안정적인 배포를 위해 견고한 CI/CD 파이프라인이 구축되었습니다. 프로세스는 다음과 같습니다:
 ![image](https://github.com/user-attachments/assets/9fe36166-11ab-4cd9-ba44-69a00c84f590)
 
-- **코드 개발:** 개발자가 GitHub 저장소에 코드를 푸시.
+- **코드 개발:** 개발자가 GitHub 저장소에 코드를 푸시. 각 서비스들은 각 서비스들의 브랜치로 푸시.
 - **CI 과정:**
   - GitHub Actions를 통한 자동 테스트.
   - Docker 이미지를 빌드하고 컨테이너 레지스트리에 푸시.
 - **CD 과정:**
-  - Kubernetes 매니페스트를 적용하여 애플리케이션 배포.
+  - Kubernetes 매니페스트를 적용하여 ArgoCD를 사용하여 애플리케이션 배포.
 
 ---
 
