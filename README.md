@@ -13,4 +13,5 @@
 ## 인프라 다이어그램
 
 ## ERD
+https://github.com/YeongKyuKang/SchoolService/issues/2#issue-2765498156
 
