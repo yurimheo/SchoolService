@@ -1,4 +1,9 @@
-# SchoolService: 온프레미스와 클라우드의 하이브리드 통합 학교 시스템
+![SchoolService Logo](https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=School%20Service&fontSize=90)
+
+# 🏫 School Service  
+온프레미스와 클라우드를 아우르는 통합 학교 관리 플랫폼
+
 
 ## 📅 프로젝트 기간
 **2024.11.08 – 2024.12.27**
