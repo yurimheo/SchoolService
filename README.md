@@ -1,18 +1,36 @@
-![SchoolService Logo](https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=School%20Service&fontSize=90)
-
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10&height=200&text=School%20Service&fontSize=50&animation=twinkling&fontAlign=68&fontAlignY=36)
 # 🏫 School Service  
 온프레미스와 클라우드를 아우르는 통합 학교 관리 플랫폼
 
+---
 
 ## 📅 프로젝트 기간
 **2024.11.08 – 2024.12.27**
 
+---
+
 ## 👨‍💼 팀 구성
 **팀원 수:** 6명
 
+---
+
 ## 🔠 프로젝트 개요
-기존 학교 시스템은 수강신청과 같은 고트래픽 이벤트 발생 시 온프레미스 리소스의 한계로 인해 성능 저하 문제가 발생했습니다. 이를 해결하기 위해 온프레미스 리소스를 최대한 활용하면서, 리소스 한계를 초과할 경우 AWS로 자동 확장되는 하이브리드 시스템을 설계하고 구현했습니다. 이를 통해 트래픽 집중 상황에서도 안정적인 성능을 보장합니다.
+
+### 배경
+기존 학교 시스템은 수강신청과 같은 고트래픽 이벤트 시, 온프레미스 리소스의 한계로 인해 성능 저하 문제가 발생했습니다.
+
+### 목표
+- 고트래픽 상황에서도 안정적인 서비스 제공
+- 온프레미스와 클라우드 자원을 효율적으로 연계
+
+### 주요 구현
+- 온프레미스 우선 리소스 활용
+- 리소스 초과 시 AWS로 자동 확장되는 하이브리드 구조 설계 및 구현
+
+### 성과
+- 트래픽 집중 상황에서도 안정적인 성능 보장
+- 자원 활용의 유연성과 확장성 확보
+
 
 ---
 
@@ -21,7 +39,7 @@
 시스템은 온프레미스와 클라우드 환경을 결합하여 효율적으로 리소스를 관리합니다. 아래 아키텍처는 주요 구성 요소 간의 관계를 설명합니다:
 ![image](https://github.com/user-attachments/assets/f3176884-62c1-4e69-8861-402f6e42ce48)
 
-### 주요 특징:
+### 👀 주요 특징
 1. **온프레미스 구성:**
    - 주요 노드(Node 1 & Node 2), 예비 노드(Node 3), 그리고 전용 모니터링 및 관리 노드 포함.
    - Nginx를 활용한 온프레미스 네트워크 로드 밸런싱.
@@ -42,7 +60,7 @@
 
 ---
 
-## ⚙️ CI/CD 파이프라인
+## ⚙️ CI/CD 파이프라인 <img src="https://img.shields.io/badge/githubactions-2088FF?style=flat-square&logo=html5&logoColor=white"/><img src="https://img.shields.io/badge/argo-EF7B4D?style=flat-square&logo=html5&logoColor=white"/>
 
 빠르고 안정적인 배포를 위해 견고한 CI/CD 파이프라인이 구축되었습니다. 프로세스는 다음과 같습니다:
 ![image](https://github.com/user-attachments/assets/9fe36166-11ab-4cd9-ba44-69a00c84f590)
@@ -56,16 +74,18 @@
 
 ---
 
-## 💃 데이터베이스 ERD
+## 💃 데이터베이스 ERD <img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 
-데이터베이스 아키텍처는 시스템의 핵심 요소입니다. 엔터티 관계 다이어그램(ERD)은 테이블 간의 관계를 시각적으로 보여주며, 다양한 모듈에서 데이터 무결성을 보장합니다.
+데이터베이스 아키텍처는 시스템의 핵심 요소입니다. 아래의 **엔터티 관계 다이어그램(ERD)** 은 테이블 간의 관계를 시각적으로 표현하며, 데이터 무결성과 다양한 모듈 간의 연동을 효과적으로 지원합니다:
+
+
 ![image](https://github.com/user-attachments/assets/59765cb0-49ef-44a3-8c2d-2320d4742266)
 
 ---
 
 ## 🕹️ 프로젝트 흐름
 
-다음 다이어그램은 시스템 내 사용자 흐름을 설명합니다:
+아래 다이어그램은 시스템 내 **사용자 흐름**을 시각적으로 보여줍니다:
 
 ```mermaid
 graph TD;
