@@ -60,7 +60,7 @@
 
 ---
 
-## ⚙️ CI/CD 파이프라인 <img src="https://img.shields.io/badge/githubactions-2088FF?style=flat-square&logo=html5&logoColor=white"/><img src="https://img.shields.io/badge/argo-EF7B4D?style=flat-square&logo=html5&logoColor=white"/>
+## ⚙️ CI/CD 파이프라인 <img src="https://img.shields.io/badge/githubactions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/><img src="https://img.shields.io/badge/argo-EF7B4D?style=flat-square&logo=argo&logoColor=white"/>
 
 빠르고 안정적인 배포를 위해 견고한 CI/CD 파이프라인이 구축되었습니다. 프로세스는 다음과 같습니다:
 ![image](https://github.com/user-attachments/assets/9fe36166-11ab-4cd9-ba44-69a00c84f590)
